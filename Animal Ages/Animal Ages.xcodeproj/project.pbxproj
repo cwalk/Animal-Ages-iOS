@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB17E2AF1B82CFBA0094693A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB17E2AE1B82CFBA0094693A /* AppDelegate.swift */; };
+		EB17E2B11B82CFBA0094693A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB17E2B01B82CFBA0094693A /* ViewController.swift */; };
+		EB17E2B41B82CFBA0094693A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB17E2B21B82CFBA0094693A /* Main.storyboard */; };
+		EB17E2B61B82CFBA0094693A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB17E2B51B82CFBA0094693A /* Assets.xcassets */; };
+		EB17E2B91B82CFBA0094693A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB17E2B71B82CFBA0094693A /* LaunchScreen.storyboard */; };
+		EB17E2C41B82CFBA0094693A /* Animal_AgesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB17E2C31B82CFBA0094693A /* Animal_AgesTests.swift */; };
+		EB17E2CF1B82CFBB0094693A /* Animal_AgesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB17E2CE1B82CFBB0094693A /* Animal_AgesUITests.swift */; };
+		EB17E2DD1B82D3300094693A /* cat-clip-art-139747.png in Resources */ = {isa = PBXBuildFile; fileRef = EB17E2DC1B82D3300094693A /* cat-clip-art-139747.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB17E2C01B82CFBA0094693A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB17E2A31B82CFBA0094693A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB17E2AA1B82CFBA0094693A;
+			remoteInfo = "Animal Ages";
+		};
+		EB17E2CB1B82CFBA0094693A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB17E2A31B82CFBA0094693A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB17E2AA1B82CFBA0094693A;
+			remoteInfo = "Animal Ages";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB17E2AB1B82CFBA0094693A /* Animal Ages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animal Ages.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB17E2AE1B82CFBA0094693A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB17E2B01B82CFBA0094693A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB17E2B31B82CFBA0094693A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB17E2B51B82CFBA0094693A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB17E2B81B82CFBA0094693A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB17E2BA1B82CFBA0094693A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB17E2BF1B82CFBA0094693A /* Animal AgesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animal AgesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB17E2C31B82CFBA0094693A /* Animal_AgesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal_AgesTests.swift; sourceTree = "<group>"; };
+		EB17E2C51B82CFBA0094693A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB17E2CA1B82CFBA0094693A /* Animal AgesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animal AgesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB17E2CE1B82CFBB0094693A /* Animal_AgesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal_AgesUITests.swift; sourceTree = "<group>"; };
+		EB17E2D01B82CFBB0094693A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB17E2DC1B82D3300094693A /* cat-clip-art-139747.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat-clip-art-139747.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB17E2A81B82CFBA0094693A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB17E2BC1B82CFBA0094693A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB17E2C71B82CFBA0094693A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB17E2A21B82CFBA0094693A = {
+			isa = PBXGroup;
+			children = (
+				EB17E2AD1B82CFBA0094693A /* Animal Ages */,
+				EB17E2C21B82CFBA0094693A /* Animal AgesTests */,
+				EB17E2CD1B82CFBB0094693A /* Animal AgesUITests */,
+				EB17E2AC1B82CFBA0094693A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB17E2AC1B82CFBA0094693A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB17E2AB1B82CFBA0094693A /* Animal Ages.app */,
+				EB17E2BF1B82CFBA0094693A /* Animal AgesTests.xctest */,
+				EB17E2CA1B82CFBA0094693A /* Animal AgesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB17E2AD1B82CFBA0094693A /* Animal Ages */ = {
+			isa = PBXGroup;
+			children = (
+				EB17E2AE1B82CFBA0094693A /* AppDelegate.swift */,
+				EB17E2B01B82CFBA0094693A /* ViewController.swift */,
+				EB17E2B21B82CFBA0094693A /* Main.storyboard */,
+				EB17E2DC1B82D3300094693A /* cat-clip-art-139747.png */,
+				EB17E2B51B82CFBA0094693A /* Assets.xcassets */,
+				EB17E2B71B82CFBA0094693A /* LaunchScreen.storyboard */,
+				EB17E2BA1B82CFBA0094693A /* Info.plist */,
+			);
+			path = "Animal Ages";
+			sourceTree = "<group>";
+		};
+		EB17E2C21B82CFBA0094693A /* Animal AgesTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB17E2C31B82CFBA0094693A /* Animal_AgesTests.swift */,
+				EB17E2C51B82CFBA0094693A /* Info.plist */,
+			);
+			path = "Animal AgesTests";
+			sourceTree = "<group>";
+		};
+		EB17E2CD1B82CFBB0094693A /* Animal AgesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB17E2CE1B82CFBB0094693A /* Animal_AgesUITests.swift */,
+				EB17E2D01B82CFBB0094693A /* Info.plist */,
+			);
+			path = "Animal AgesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB17E2AA1B82CFBA0094693A /* Animal Ages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB17E2D31B82CFBB0094693A /* Build configuration list for PBXNativeTarget "Animal Ages" */;
+			buildPhases = (
+				EB17E2A71B82CFBA0094693A /* Sources */,
+				EB17E2A81B82CFBA0094693A /* Frameworks */,
+				EB17E2A91B82CFBA0094693A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Animal Ages";
+			productName = "Animal Ages";
+			productReference = EB17E2AB1B82CFBA0094693A /* Animal Ages.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB17E2BE1B82CFBA0094693A /* Animal AgesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB17E2D61B82CFBB0094693A /* Build configuration list for PBXNativeTarget "Animal AgesTests" */;
+			buildPhases = (
+				EB17E2BB1B82CFBA0094693A /* Sources */,
+				EB17E2BC1B82CFBA0094693A /* Frameworks */,
+				EB17E2BD1B82CFBA0094693A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB17E2C11B82CFBA0094693A /* PBXTargetDependency */,
+			);
+			name = "Animal AgesTests";
+			productName = "Animal AgesTests";
+			productReference = EB17E2BF1B82CFBA0094693A /* Animal AgesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB17E2C91B82CFBA0094693A /* Animal AgesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB17E2D91B82CFBB0094693A /* Build configuration list for PBXNativeTarget "Animal AgesUITests" */;
+			buildPhases = (
+				EB17E2C61B82CFBA0094693A /* Sources */,
+				EB17E2C71B82CFBA0094693A /* Frameworks */,
+				EB17E2C81B82CFBA0094693A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB17E2CC1B82CFBA0094693A /* PBXTargetDependency */,
+			);
+			name = "Animal AgesUITests";
+			productName = "Animal AgesUITests";
+			productReference = EB17E2CA1B82CFBA0094693A /* Animal AgesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB17E2A31B82CFBA0094693A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Clayton Walker";
+				TargetAttributes = {
+					EB17E2AA1B82CFBA0094693A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					EB17E2BE1B82CFBA0094693A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EB17E2AA1B82CFBA0094693A;
+					};
+					EB17E2C91B82CFBA0094693A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EB17E2AA1B82CFBA0094693A;
+					};
+				};
+			};
+			buildConfigurationList = EB17E2A61B82CFBA0094693A /* Build configuration list for PBXProject "Animal Ages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB17E2A21B82CFBA0094693A;
+			productRefGroup = EB17E2AC1B82CFBA0094693A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB17E2AA1B82CFBA0094693A /* Animal Ages */,
+				EB17E2BE1B82CFBA0094693A /* Animal AgesTests */,
+				EB17E2C91B82CFBA0094693A /* Animal AgesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB17E2A91B82CFBA0094693A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB17E2B91B82CFBA0094693A /* LaunchScreen.storyboard in Resources */,
+				EB17E2B61B82CFBA0094693A /* Assets.xcassets in Resources */,
+				EB17E2B41B82CFBA0094693A /* Main.storyboard in Resources */,
+				EB17E2DD1B82D3300094693A /* cat-clip-art-139747.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB17E2BD1B82CFBA0094693A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB17E2C81B82CFBA0094693A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB17E2A71B82CFBA0094693A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB17E2B11B82CFBA0094693A /* ViewController.swift in Sources */,
+				EB17E2AF1B82CFBA0094693A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB17E2BB1B82CFBA0094693A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB17E2C41B82CFBA0094693A /* Animal_AgesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB17E2C61B82CFBA0094693A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB17E2CF1B82CFBB0094693A /* Animal_AgesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB17E2C11B82CFBA0094693A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB17E2AA1B82CFBA0094693A /* Animal Ages */;
+			targetProxy = EB17E2C01B82CFBA0094693A /* PBXContainerItemProxy */;
+		};
+		EB17E2CC1B82CFBA0094693A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB17E2AA1B82CFBA0094693A /* Animal Ages */;
+			targetProxy = EB17E2CB1B82CFBA0094693A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB17E2B21B82CFBA0094693A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB17E2B31B82CFBA0094693A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB17E2B71B82CFBA0094693A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB17E2B81B82CFBA0094693A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB17E2D11B82CFBB0094693A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB17E2D21B82CFBB0094693A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB17E2D41B82CFBB0094693A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Animal Ages/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Clayton.Animal-Ages";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB17E2D51B82CFBB0094693A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Animal Ages/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Clayton.Animal-Ages";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB17E2D71B82CFBB0094693A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Animal AgesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Clayton.Animal-AgesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animal Ages.app/Animal Ages";
+			};
+			name = Debug;
+		};
+		EB17E2D81B82CFBB0094693A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Animal AgesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Clayton.Animal-AgesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animal Ages.app/Animal Ages";
+			};
+			name = Release;
+		};
+		EB17E2DA1B82CFBB0094693A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Animal AgesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Clayton.Animal-AgesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Animal Ages";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EB17E2DB1B82CFBB0094693A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Animal AgesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Clayton.Animal-AgesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Animal Ages";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB17E2A61B82CFBA0094693A /* Build configuration list for PBXProject "Animal Ages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB17E2D11B82CFBB0094693A /* Debug */,
+				EB17E2D21B82CFBB0094693A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB17E2D31B82CFBB0094693A /* Build configuration list for PBXNativeTarget "Animal Ages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB17E2D41B82CFBB0094693A /* Debug */,
+				EB17E2D51B82CFBB0094693A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB17E2D61B82CFBB0094693A /* Build configuration list for PBXNativeTarget "Animal AgesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB17E2D71B82CFBB0094693A /* Debug */,
+				EB17E2D81B82CFBB0094693A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB17E2D91B82CFBB0094693A /* Build configuration list for PBXNativeTarget "Animal AgesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB17E2DA1B82CFBB0094693A /* Debug */,
+				EB17E2DB1B82CFBB0094693A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB17E2A31B82CFBA0094693A /* Project object */;
+}
