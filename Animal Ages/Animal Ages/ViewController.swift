@@ -14,7 +14,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var resultLabel: UILabel!
     
     @IBAction func findAge(sender: AnyObject) {
-        resultLabel.text = catAgeTextField.text
+        
+        //example of casting and wrapping/unwrapping
+        var catAge = Int(catAgeTextField.text!)!
+        
+        catAge = catAge * 7
+        
+        resultLabel.text = "Your cat is \(catAge) in cat years"
     }
     
     
